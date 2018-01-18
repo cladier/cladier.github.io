@@ -11,7 +11,7 @@ pages:
 - axa_utils:
     - Functionalities: axa_utils/functionalities.md
 
-theme: jekyll-theme-slate
+theme: readthedocs
 
 markdown_extensions:
   - mdx_math
