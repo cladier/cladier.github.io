@@ -1,1 +1,24 @@
+site_name: Clem Page
+
+pages:
+- Home: index.md
+- Tutorial:
+    - 01 - Subsection test: tutorial/01_why_use_git.md
+
+- Notes:
+  - Static installer: notes/static_installer.md
+
+- axa_utils:
+    - Functionalities: axa_utils/functionalities.md
+
 theme: jekyll-theme-slate
+
+markdown_extensions:
+  - mdx_math
+  - extra
+  - tables
+  - fenced_code
+
+extra_javascript:
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - mathjaxhelper.js
