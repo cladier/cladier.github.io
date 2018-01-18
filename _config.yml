@@ -3,7 +3,7 @@ site_name: Clem Page
 pages:
 - Home: index.md
 - Tutorial:
-    - 01 - Subsection test: tutorial/01_why_use_git.md
+    - 01 - Subsection test: subsections/01_why_use_git.md
 
 - Notes:
   - Static installer: notes/static_installer.md
